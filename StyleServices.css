@@ -2,21 +2,35 @@ img{
 	width:100%;
 	float: center;
 	margin: 1.66%;
-	
 }
 
-
+body{
+	background-color: rgb(51, 204, 204);
+}
 
 h1{
 	text-align: center;
 }
 
-div{
+a{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	
+}
+
+.div-1{
 	text-align: center;
+
 }
 
 .non-active{
-	opacity: 0.6;
+	
 	cursor: not-allowed;
 	pointer-events: auto;
+}
+
+a:hover{
+	color:grey;
+	text-decoration: none;
 }

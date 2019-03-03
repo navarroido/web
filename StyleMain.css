@@ -75,3 +75,17 @@ a:hover{
 	color:grey;
 	text-decoration: none;
 }
+
+
+/*new rwquest*/
+.newReq li{
+	display: block;
+}
+
+.newReq{
+	text-align: right;
+
+}
+.newReq input{
+	background-color: #c4b9a4;
+}

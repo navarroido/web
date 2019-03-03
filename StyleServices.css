@@ -2,4 +2,21 @@ img{
 	width:100%;
 	float: center;
 	margin: 1.66%;
+	
+}
+
+
+
+h1{
+	text-align: center;
+}
+
+div{
+	text-align: center;
+}
+
+.non-active{
+	opacity: 0.6;
+	cursor: not-allowed;
+	pointer-events: auto;
 }

@@ -1,16 +1,77 @@
 body{
-    background:url(https://www.ynet.co.il/PicServer5/2018/03/14/8405654/HB5.jpg); 
-background-repeat: no-repeat;
-background-size: cover;
-background-color: transparent;
+    background-color:#c4b9a4;
+}
+html{
+	width: 100%;
+}
+
+.div-header{
+	margin-top:4%;
+	text-align: center;
+	height: 200px;
+	padding-top: 5%;
+	
+}
+
+.main-header
+{  
+    background:linear-gradient(0deg,rgba(255,255,255,0.3),rgba(0,0,0,0.3)),url("http://www.yahel-eng.co.il/data/images/3361_c9a7e400921b5e201e9a221af7a4b31b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 30%;	
 }
 
 
-
-.header{
-    margin: 2%;
+.main{
+    margin-top:2%;
     text-align: right;
     color: black;
-    background: white;
+    background: #c4b9a4;
+    border:solid 1px black;
+    height: 100%;
 
+}
+h1.title{
+	font-size:72px;
+	color:black;
+	
+}
+.p-1{
+	line-height: 0.5cm;
+	font-size:24px;
+}
+
+/*All Services*/
+.img-services{
+	width:100%;
+	float: center;
+	margin: 1.66%;
+}
+
+h1{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	
+}
+
+.div-1{
+	text-align: center;
+
+}
+
+.non-active{
+	
+	cursor: not-allowed;
+	pointer-events: auto;
+}
+
+a:hover{
+	color:grey;
+	text-decoration: none;
 }

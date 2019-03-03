@@ -6,10 +6,9 @@ html{
 }
 
 .div-header{
-	margin-top:4%;
 	text-align: center;
-	height: 200px;
-	padding-top: 5%;
+	height: 300px;
+	padding-top: 10%;
 	
 }
 
@@ -88,4 +87,21 @@ a:hover{
 }
 .newReq input{
 	background-color: #c4b9a4;
+}
+
+.mainSer{
+	margin-top:2%;
+}
+
+/*view all projects*/
+.project{
+	font-size:24px;
+	text-align: right;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.bProject{
+	align-items: center;
+	margin-top:50px;
+
 }

@@ -24,14 +24,18 @@
 	width: 60%;
 	float:left;
 	background-image: url(https://previews.123rf.com/images/terriana/terriana1210/terriana121000011/15636374-coffee-beans-seamless-pattern-background.jpg);
+
+
+
 }
 
 .pnews{
 	width: 40%;
 	float: right;
 	background: pink;
-	padding: 15px;
+	/*padding: 15px;*/
 	position: relative;	
+
 }
 
 .tableAndList{

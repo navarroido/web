@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir=rtl>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+	header{
+		color:green;
+		text-align: right;
+		font-weight:  bold;
+		font-size: 48px;
+	}
+	fieldset{
+		border:2px dashed red;
+		width: 50%;
+	}
+
+	.class1{
+		border:solid 2px black;
+	}
+	.class2{
+		border:double 3px orange;
+	}
+	.class3{
+		border:dotted thick black;
+	}
+
+	</style>
+</head>
+<body>
+	<header>
+		מסגרת רכיבי טופס
+	</header>
+	<form class="main">
+		<section class="class1">
+		<p><label>תיבת טקסט </label><input type="text" name="fname" maxlength="20" autocomplete="on" placeholder="טקסט"></p>
+		<p>תיבת סיסמא  <input type="password" name="lname" placeholder="סיסמא" title="תבחר סיסמא חזקה"></p>
+		<p>Email <input type="Email" name="Email" placeholder="Email" title="להזין אימייל תקין"></p>
+		<p>טלפון <input type="tel" name="" placeholder="טלפון"></p>
+		<p>מדד שביעות רצון <input type="range" min="1" max="10" value="5" name=""></p>
+		<p>בחירת צבע <input type="color" value="#00e600" name=""></p>
+		</section> 
+		<section class="class2">
+		<fieldset>
+		<p>תאריך <input type="date" name=""></p>
+		<p>שעה<input type="time" name=""></p>
+		</fieldset>
+		<p>תיבת סימון 1 : <input type="checkbox" name=""></p>
+		<p>תיבת סימון 2 : <input type="checkbox" name=""></p>
+		<p>תיבת סימון 3 : <input type="checkbox" name=""></p>
+		</section>
+		<section class="class3">
+		<p>כפתור רדיו 1: <input type="radio" name="radio1"></p>
+		<p>כפתור רדיו 2: <input type="radio" name="radio1"></p>
+		<p>כפתור רדיו 3: <input type="radio" name="radio1"></p>
+		<p>איזור טקסט : <textarea col="30" rows"7"></textarea></p>
+		<p>תיבת בחירה  <select>
+			<option value="1">ניסיון</option>
+			<option value="2">ניסיון 2</option>
+			<option value="3">ניסיון</option>
+		</select></p>
+		<p>הוספת קובץ<input type="file" name=""></p>
+		<p>כפתור שליחת טוספ <input type="submit" name="" value="שלח"></p>
+		<p>כפתור ניקוי טופס <input type="reset" name="" value="איפוס"></p>
+		</section>
+	</form>
+	
+
+</body>
+</html>

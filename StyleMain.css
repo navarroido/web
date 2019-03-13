@@ -83,23 +83,6 @@ a:hover{
 }
 
 
-/*new rwquest*/
-.newReq li{
-	display: block;
-}
-
-.newReq{
-	text-align: right;
-
-}
-.newReq input{
-	background-color: #c4b9a4;
-}
-
-.mainSer{
-	margin-top:2%;
-}
-
 /*view all projects*/
 .project{
 	font-size:24px;
@@ -127,3 +110,66 @@ a:hover{
 	text-align: right;
 	border: solid 1px black;
 }
+
+
+/*new request*/
+
+
+	.newReq li{
+		display: block;
+	}
+
+	.newReq{
+		text-align: center;
+
+	}
+	.newReq input{
+		background-color: #c4b9a4;
+		border:1px solid grey;
+		width: 300px;
+		height: 30px;	
+	}
+	.newReq{
+		margin-top: 20px;
+	}
+	.newReq select{
+		background-color: #c4b9a4;
+		border:1px solid grey;
+		width: 300px;
+		height: 30px;	
+	}
+	.newReq textarea{
+		background-color: #c4b9a4;
+		border:1px solid grey;
+		width: 300px;
+		vertical-align: middle;
+		height: 80px;
+	}
+	#send{
+		
+		background: #0ba869;
+		width: 70px;
+		height: 40px;
+	}
+	#send:hover{
+		
+		background: #21dd92;
+
+	}
+	#zero{
+		
+		background: grey;
+		width: 70px;
+		height: 40px;
+	}
+	#zero:hover{
+		
+		background: #efefef;
+	}
+	.mainForm label{
+		width:150px;
+	}
+	.mainForm{
+		font-size: 18px;
+		font-weight: bold;
+	}

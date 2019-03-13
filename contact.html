@@ -44,45 +44,18 @@
     <div class="div-header main-header ">
         <h1 class="title ">צור קשר</h1>
     </div>
-    <div class="container">
-        
-            <form  method="post" action="" class="newReq">
-            <div class="form_description">
-        
-            </div>                      
-                <ul >
-                <li >
-                <h3>פרטים אישיים</h3>
-                <p></p>
-            </li>       
-            <li >
-            <label>שם </label>
-            <span>
-                <input maxlength="255" size="8" value=""/>
-                <label>פרטי</label>
-            </span>
-            <span>
-                <input maxlength="255" size="14" value=""/>
-                <label>משפחה</label>
-            </span> 
-            </li>       
-            <li>
-            <label>דוא"ל </label>
-            <div>
-                <input type="text" maxlength="255" value=""/> 
-            </div> 
-            </li>       
-            <div>
-                נשמח ליצור איתך קשר בהקדם, התשובה תישלח אליך בדוא"ל שהזנת
-            </div>
-                
-            <li>
-                    <input type="submit" name="submit" value="שלח" />
-            </li>
-                </ul>
-            </form> 
-    </div>
-
+   <div class="container newReq">
+	<form class="mainForm">
+		<p><i class="fas fa-signature"></i><label>שם פרטי </label><input type="text" name="fname" maxlength="20" autocomplete="on"></p>
+		<p><i class="fas fa-signature"></i><label>שם משפחה </label><input type="text" name="lname" maxlength="20" autocomplete="on"></p>
+		<p><i class="fas fa-mobile-alt"></i><label>טלפון </label><input type="tel" name="phone"></p>
+		<p><i class="fas fa-mail-bulk"></i><label>Email </label><input type="Email" name="Email" title="נא להזין אימייל תקין"></p>
+		<p><i class="fas fa-info"></i><label>תאור הפנייה</label><textarea name="description"></textarea></p>
+		<p>
+		<input type="submit" name="sent" id="send" value="שלח"> <input type="reset" name="zero" value="איפוס" id="zero">
+		</p>
+	</form>
+	</div>
 
 
 
